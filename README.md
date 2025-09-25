@@ -45,7 +45,16 @@ Cada pantalla valida sus campos antes de permitir avanzar y, al finalizar, se mu
 📂 Estructura del proyecto
 --------------------------
 
-app/   ├── ui/   │   ├── theme/        # 🎨 Archivos de colores, tipografía y tema   │   ├── PersonalDataActivity.kt   │   ├── ContactDataActivity.kt   ├── viewmodel/   │   ├── PersonalViewModel.kt   │   ├── ContactViewModel.kt   ├── MainActivity.kt   # 🚀 Punto de entrada   ├── AndroidManifest.xml   `
+app/   
+├── ui/   │   
+├── theme/        # 🎨 Archivos de colores, tipografía y tema   │   
+├── PersonalDataActivity.kt   │   
+├── ContactDataActivity.kt   
+├── viewmodel/   │   
+├── PersonalViewModel.kt   │   
+├── ContactViewModel.kt   
+├── MainActivity.kt   # 🚀 Punto de entrada   
+├── AndroidManifest.xml   `
 
 🚀 Instalación y ejecución
 --------------------------
@@ -54,12 +63,14 @@ app/   ├── ui/   │   ├── theme/        # 🎨 Archivos de colores,
 
 git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formulario   `
 
+
 ### 🔹 2. Abrir en Android Studio
 
 1.  Abrir **Android Studio** → File > Open → Selecciona la carpeta del proyecto.
     
 2.  Esperar a que Gradle sincronice dependencias.
     
+
 
 ### 🔹 3. Ejecutar la app
 
@@ -72,6 +83,7 @@ git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formul
 *   Correr con ▶ Run.
     
 
+
 #### 📲 En un dispositivo físico
 
 1.  Activar **Opciones de desarrollador** → Depuración USB.
@@ -79,6 +91,7 @@ git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formul
 2.  Conectar el teléfono al PC vía cable.
     
 3.  Seleccionar el dispositivo en Android Studio y ejecutar ▶.
+
     
 
 🧩 Flujo de la aplicación
@@ -90,6 +103,7 @@ git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formul
     
 3.  Se muestra un **Toast de confirmación** ✅.
     
+
 
 ✨ Mejores prácticas aplicadas
 -----------------------------
@@ -105,10 +119,6 @@ git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formul
 *   📂 Código organizado y fácil de escalar.
     
 
-📸 Capturas de pantalla (pendiente)
------------------------------------
-
-> Aquí puedes añadir imágenes del flujo de la app (opcional).
 
 📜 Licencia
 -----------
